@@ -13,7 +13,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**MY STATUS** \n`FRIDAY IS:` **✅ Alive**\n\n"
+    await alive.edit("**MY STATUS** \n`SKY IS:` **✅ Alive**\n\n"
                      "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
                      "`DATABASE STATUS:` **ALL NORMAL! WORKING FINE 🙂**\n`NO PROBLEM FOUND🔥!\n`"
                      "`CONNECTION PROVIDER:` ** AMAZON WEB SERVICES\n"
